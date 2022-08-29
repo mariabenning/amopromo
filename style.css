@@ -1,0 +1,95 @@
+*{
+margin:0;
+padding:0;
+
+}
+
+
+header{
+display: flex;
+text-align: center;
+align-self: center;
+align-items: center;
+align-content: center;
+position: absolute;
+width: 1440px;
+height: 35px;
+left: 0px;
+top: 0px;
+background: #03341C;
+   
+}
+
+.menu{
+    position: absolute;
+    width: 1440px;
+    height: 87px;
+    left: 0px;
+    top: 35px;
+    background: #006E3E;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+
+
+ul, li{
+    display: flex;
+}
+
+/*
+body{
+background-image: url(/imgs/backgroud01.png);
+background-repeat: no-repeat;
+background-size: 1440px;
+left: 0;
+right: 0;
+    
+}
+*/
+
+
+.primeira-section{
+width: 1440px;
+left: 0;
+right: 0;
+}
+
+
+.titulo{
+position: absolute;
+top: 40%;
+right:0;
+left:0;
+}
+
+.section-02{
+display: flex;
+align-items: center;
+
+}
+
+
+
+.cards-planos{
+display: flex;
+flex-direction: row;
+
+
+
+}
+
+
+
+
+
+
+.section-03{
+    display: flex;
+}
+
+.card-beneficios{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
