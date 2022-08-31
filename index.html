@@ -6,131 +6,166 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seguros Promo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https: //fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900 & display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header>
-        <p>CENTRAL DE VENDAS</p>
-        <img src="./imgs/icon-celular.png"></img>
-        (31) 4000-1667
-        <img src="./imgs/icon-whats.png"></img>
-        (31) 2534-2115
+        <div class="mensagem-global">
+            <p class="msg-global">CENTRAL DE VENDAS</p>
+
+            <img src="./imgs/icon-celular.png"></img>
+            <p class="tel-contato">(31) 4000-1667</p>
+            <img src="./imgs/icon-whats.png"></img>
+            <p class="tel-contato">(31) 2534-2115</p>
+
+        </div>
     </header>
     <div class="menu">
-        <img src="./imgs/logo.png"></img>
-        <li>
-            <ul>Seguro de Vida</ul>
-            <ul>Multi-trip</ul>
-            <ul>Atendimento</ul>
-            <ul>FAQ</ul>
-            <ul>Afiliados</ul>
-            <ul>Blog</ul>
-        </li>
-        <img src="./imgs/icon-user.png"></img>
-        <button>Área do cliente</button>
 
-        <img src="./imgs/icon-setas.png"></img>
+        <img clas="logo" src="./imgs/logo.png"></img>
+        <div class="lista">
+            <li>
+                <ul>Seguro de Vida</ul>
+                <ul>Multi-trip</ul>
+                <ul>Atendimento</ul>
+                <ul>FAQ</ul>
+                <ul>Afiliados</ul>
+                <ul>Blog</ul>
+            </li>
+        </div>
+        <div class="area-cliente">
+            <img src="./imgs/icon-user.png"></img>
+            <button class="btn-area-cliente">Área do cliente</button>
+            <img src="./imgs/icon-setas.png"></img>
+        </div>
     </div>
+
     <div class="primeira-section">
         <img src="./imgs/backgroud01.png"></img>
     </div>
-    <div class="titulo">
-        <h1>Tranquilidade para viver mais</h1>
-        <p>Viva mais e melhor com os benefícios que um serguro de vida te oferece</p>
-        <button>Faça sua cotação</button>
+    <div>
+        <h1 class="titulo">Tranquilidade para viver mais</h1>
+        <p class="p1"> Viva mais e melhor com os benefícios que um serguro de vida te oferece</p>
+        <button class="btn-cotação">Faça sua cotação</button>
+
     </div>
     <section class="section-02">
-        <img src="./imgs/img-notebook.png"></img>
+        <img class="img-pc" src="./imgs/img-notebook.png"></img>
         <div>
-            <h2>Planos personalizados e sem burocracia</h2>
-            <img src="./imgs/1..png"></img>
-            <p>Informe seus dados</p>
-            <img src="./imgs/2..png"></img>
-            <p>Descubra o plano ideal para o seu perfil</p>
-            <img src="./imgs/3..png"></img>
-            <p>Escolha sua forma de pagamento e contrate 100% online</p>
-            <p>Pronto! Agora você e sua família têm todos os benefícios de viver com segurança total</p>
-            <button>Faça sua cotação</button>
-        </div>
-    </section>
-    <section>
-        <h1>Nossas coberturas</h1>
-        <p>Veja mais detalhes de cada proteção!</p>
-        <div class="cards-planos">
-            <div class="card-1">
-                <img src="./imgs/icon-morte.png"></img>
-                <p>Se você vier a faltar por causa de um acidente ou doença, a pessoa que você escolheu como
-                    beneficiário
-                    receberá o valor contratado.</p>
-                <button>Saiba Mais</button>
-            </div>
 
-            <div class="card-1">
-                <img src="./imgs/icon-morte.png"></img>
-                <p>Se você vier a faltar por causa de um acidente ou doença, a pessoa que você escolheu como
-                    beneficiário
-                    receberá o valor contratado.</p>
-                <button>Saiba Mais</button>
+            <h2 class="titulo-section02">Planos personalizados e sem burocracia</h2>
+            <div class="plan-person1">
+                <img class="numeros" src="./imgs/1..png"></img>
+                <p>Informe seus dados</p>
             </div>
+            <div class="plan-person2">
+                <img  class="numeros" src="./imgs/2..png"></img>
+                <p>Descubra o plano ideal para o seu perfil</p>
+            </div>
+            <div class="plan-person3">
+                <img class="numeros" src="./imgs/3..png"></img>
+                <p>Escolha sua forma de pagamento e contrate 100% online</p>
 
-            <div class="card-1">
-                <img src="./imgs/icon-morte.png"></img>
-                <p>Se você vier a faltar por causa de um acidente ou doença, a pessoa que você escolheu como
-                    beneficiário
-                    receberá o valor contratado.</p>
-                <button>Saiba Mais</button>
             </div>
+            <p class="text-section2"> Pronto! Agora você e sua família têm todos os benefícios de viver com segurança
+                total</p>
+            <button class="btn-cotacao-02">Faça sua cotação</button>
         </div>
-        <button>Faça sua Cotação</button>
     </section>
     <section class="section-03">
+        <h1 class="titulo-section-03">Nossas coberturas</h1>
+        <p class="text-section-03">Veja mais detalhes de cada proteção!</p>
+        <div class="cards-planos">
+            <div class="card-1">
+                <img class="icon-card" src="./imgs/icon-morte.png"></img>
+                <p class="p-morte">Morte</p>
+                <p>Se você vier a faltar por causa de um acidente ou doença, a pessoa que você escolheu como
+                    beneficiário
+                    receberá o valor contratado.</p>
+                <button class="btn-saiba">Saiba Mais</button>
+            </div>
 
-        <h1>Mas por que ter um seguro de vida?</h1>
+            <div class="card-2">
+                <img class="icon-card" src="./imgs/icon-morte.png"></img>
+                <p class="p-morte">Morte</p>
+                <p>Se você vier a faltar por causa de um acidente ou doença, a pessoa que você escolheu como
+                    beneficiário
+                    receberá o valor contratado.</p>
+                <button class="btn-saiba">Saiba Mais</button>
+            </div>
 
-        <div class="card-beneficios">
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin luctus malesuada.
-                Curabitur vestibulum sagittis iaculis. Phasellus quis lobortis neque, mattis viverra augue. Etiam
-                bibendum, sem vel faucibus finibus, ante dui finibus urna, sed gravida nisi lectus ac metus. Sed
-                consequat lacinia nisl. Morbi in arcu risus. Phasellus pulvinar sed odio at scelerisque. Mauris.</p>
-            <hr>
-
-
-            <p>Segurança financeira</p>
-            <hr>
-
-
-            <p>Proteção financeira aos dependentes e ao cônjuge</p>
-            <hr>
-
-
-
-            <p>Tranquilidade para o segurado</p>
-            <hr>
-
-
-            <p>Garantias nas horas em que você mais precisar</p>
-            <hr>
-           
-           
+            <div class="card-3">
+                <img class="icon-card" src="./imgs/icon-morte.png"></img>
+                <p class="p-morte">Morte</p>
+                <p>Se você vier a faltar por causa de um acidente ou doença, a pessoa que você escolheu como
+                    beneficiário
+                    receberá o valor contratado.</p>
+                <button class="btn-saiba">Saiba Mais</button>
+            </div>
         </div>
-        <div>
-        <img class="img-section03" src="./imgs/img-casal.png"></img>
-        <button>Faça sua Cotação</button>
-    </div>
+        <button class="btn-cotacao-03">Faça sua Cotação</button>
     </section>
 
-    <section>
-        <img src="./imgs/img-mlh.png"></img>
-        <h1>Ainda não sabe qual seguro contratar?</h1>
-        <h1>Ligue pra gente e receba uma consultoria personalizada gratuitamente!</h1>
+
+    <h1 class="titulo-section-04">Mas por que ter um seguro de vida?</h1>
+
+    <section class="section-04">
+
+        <div class="card-duvidas">
+            <div class="duvida01">
+                <p>Custo-benefício</p>
+                <p class="txt-duvida01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin luctus malesuada.
+                    Curabitur vestibulum sagittis iaculis. Phasellus quis lobortis neque, mattis viverra augue. Etiam
+                    bibendum, sem vel faucibus finibus, ante dui finibus urna, sed gravida nisi lectus ac metus. Sed
+                    consequat lacinia nisl. Morbi in arcu risus. Phasellus pulvinar sed odio at scelerisque. Mauris.</p>
+                <hr>
+            </div>
+            <div class="duvida02">
+                <p>Segurança financeira</p>
+                <hr>
+            </div>
+            <div class="duvida03">
+                <p>Proteção financeira aos dependentes e ao cônjuge</p>
+                <hr>
+            </div>
+
+            <div class="duvida04">
+                <p>Tranquilidade para o segurado</p>
+                <hr>
+
+            </div>
+            <div class="duvida05">
+                <p>Garantias nas horas em que você mais precisar</p>
+               
+                <hr>
+            </div>
+        </div>
+        <div>
+            <img class="img-section04" src="./imgs/img-casal.png"></img>
+            <button class="btn-cotacao-04">Faça sua Cotação</button>
+        </div>
+    </section>
+
+    <section class="section-05">
+        <img  class="img-section-05"src="./imgs/img-mlh.png"></img>
+        <h1 class="titulo-section-05">Ainda não sabe qual seguro contratar?</h1>
+        <h1 class="sub-titulo-section-05">Ligue pra gente e receba uma consultoria personalizada gratuitamente!</h1>
+        <div class="phone">
         <img src="./imgs/pone.png"></img>
-<h3>(99) 99999.9999</h3>
-<img src="./imgs/wthas.png"></img>
-<button>Se preferir, entre em contato pelo Whatsapp</button>
-<p>Atendemos pelo telefone de seg. a sex., das 9h às 17h</p>
-</section>
+        <p>(99) 99999.9999</p>
+        </div>
+        <div class="btn-wthas">
+        <img src="./imgs/wthas.png"></img>
+        <button class="btn-wthas1">Se preferir, entre em contato pelo Whatsapp</button>
+        </div>
+        <p>Atendemos pelo telefone de seg. a sex., das 9h às 17h</p>
+    </section>
 
 </body>
 
