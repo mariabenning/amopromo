@@ -50,6 +50,15 @@ justify-content: space-evenly;
 
 
 
+
+.menu-mobile-icon{
+    display: none;
+}
+
+.menu-mobile{
+    display: none;
+}
+
 ul, li{
 display: flex;
 align-items: center;
@@ -181,6 +190,11 @@ width: 1440px;
 height: 719px;
 }
 
+.backgroud01-mobile{
+display: none;
+}
+
+
 
 .titulo-section02{
     position: absolute;
@@ -275,7 +289,9 @@ cursor: pointer;
 border: none;
 }
 
-
+.img-pc-mobile{
+    display: none;
+}
 
 .text-section2{
     position: absolute;
@@ -770,4 +786,18 @@ color: #83AF38;
         border: none;        
         color: #FFFFFF;
       cursor: pointer;
+    }
+
+    .img-section-05-mobile{
+
+    display: none;
+    }
+
+
+    .horario{
+    position: absolute;
+    height: 22px;
+    right: 10px;
+    bottom: 10px;
+
     }

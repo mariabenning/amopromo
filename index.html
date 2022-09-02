@@ -12,6 +12,7 @@
         href="https: //fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900 & display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css">
 </head>
 
 <body>
@@ -26,6 +27,7 @@
 
         </div>
     </header>
+
     <div class="menu">
 
         <img clas="logo" src="./imgs/logo.png"></img>
@@ -44,10 +46,31 @@
             <button class="btn-area-cliente">Área do cliente</button>
             <img src="./imgs/icon-setas.png"></img>
         </div>
+
+
+        <div class="menu-mobile-icon">
+            <button onclick="menuShow()"><img class="icon" src="./imgs/Solid.png" alt="">Menu</button>
+        </div>
+
+        <div class="menu-mobile">
+            <li>
+                <ul>Seguro de Vida</ul>
+                <ul>Multi-trip</ul>
+                <ul>Atendimento</ul>
+                <ul>FAQ</ul>
+                <ul>Afiliados</ul>
+                <ul>Blog</ul>
+            </li>
+
+            <button onclick="menuClose()"><img class="icon" src="./imgs/Solid.png" alt=""></button>
+        </div>
     </div>
 
     <div class="primeira-section">
-        <img src="./imgs/backgroud01.png"></img>
+        <img  class="backgroud01" src="./imgs/backgroud01.png"></img>
+        <img  class="backgroud01-mobile" src="./imgs/mobile/backgroud01-mobile.png"></img>
+        
+
     </div>
     <div>
         <h1 class="titulo">Tranquilidade para viver mais</h1>
@@ -65,7 +88,7 @@
                 <p>Informe seus dados</p>
             </div>
             <div class="plan-person2">
-                <img  class="numeros" src="./imgs/2..png"></img>
+                <img class="numeros" src="./imgs/2..png"></img>
                 <p>Descubra o plano ideal para o seu perfil</p>
             </div>
             <div class="plan-person3">
@@ -75,6 +98,7 @@
             </div>
             <p class="text-section2"> Pronto! Agora você e sua família têm todos os benefícios de viver com segurança
                 total</p>
+                <img class="img-pc-mobile" src="./imgs/mobile/img-pc-mobile.png"></img>
             <button class="btn-cotacao-02">Faça sua cotação</button>
         </div>
     </section>
@@ -119,8 +143,10 @@
 
         <div class="card-duvidas">
             <div class="duvida01">
-                <p>Custo-benefício</p>
-                <p class="txt-duvida01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin luctus malesuada.
+                <p id="custo">Custo-benefício</p>
+                
+                <p class="txt-duvida01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+                    sollicitudin luctus malesuada.
                     Curabitur vestibulum sagittis iaculis. Phasellus quis lobortis neque, mattis viverra augue. Etiam
                     bibendum, sem vel faucibus finibus, ante dui finibus urna, sed gravida nisi lectus ac metus. Sed
                     consequat lacinia nisl. Morbi in arcu risus. Phasellus pulvinar sed odio at scelerisque. Mauris.</p>
@@ -142,31 +168,35 @@
             </div>
             <div class="duvida05">
                 <p>Garantias nas horas em que você mais precisar</p>
-               
+
                 <hr>
             </div>
         </div>
+
         <div>
             <img class="img-section04" src="./imgs/img-casal.png"></img>
+            
             <button class="btn-cotacao-04">Faça sua Cotação</button>
         </div>
     </section>
 
     <section class="section-05">
-        <img  class="img-section-05"src="./imgs/img-mlh.png"></img>
+        <img class="img-section-05" src="./imgs/img-mlh.png"></img>
+        <img class="img-section-05-mobile" src="./imgs/mobile/backgroud05-mobile.png"></img>     
+
         <h1 class="titulo-section-05">Ainda não sabe qual seguro contratar?</h1>
         <h1 class="sub-titulo-section-05">Ligue pra gente e receba uma consultoria personalizada gratuitamente!</h1>
         <div class="phone">
-        <img src="./imgs/pone.png"></img>
-        <p>(99) 99999.9999</p>
+            <img src="./imgs/pone.png"></img>
+            <p>(99) 99999.9999</p>
         </div>
         <div class="btn-wthas">
-        <img src="./imgs/wthas.png"></img>
-        <button class="btn-wthas1">Se preferir, entre em contato pelo Whatsapp</button>
+            <img src="./imgs/wthas.png"></img>
+            <button class="btn-wthas1">Se preferir, entre em contato pelo Whatsapp</button>
         </div>
-        <p>Atendemos pelo telefone de seg. a sex., das 9h às 17h</p>
+        <p class="horario">Atendemos pelo telefone de seg. a sex., das 9h às 17h</p>
     </section>
-
+    <script src="/scrip.js"></script>
 </body>
 
 </html>

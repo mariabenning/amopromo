@@ -1,0 +1,537 @@
+@media screen and (max-width: 360px) {
+
+body{
+width: 360px;
+}
+header{
+display: none;
+}
+        
+.lista {
+display: none;
+} 
+
+
+
+
+.menu-mobile li {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+        
+.btn-area-cliente{
+    display: none;
+}
+        
+.area-cliente{
+    display: none;
+}
+   
+
+ul:hover{
+    display: none;
+     
+    }
+    
+.open {
+display: block;
+}
+
+
+
+.backgroud01{
+display: none;
+}
+.img-pc{
+    display: none;
+}
+
+.img-section-05{
+    display: none;
+}
+
+
+.menu{
+    width: 360px;
+    height: 15vh;
+    background: #006E3E;    
+    align-items: center;
+    display: flex;   
+    }
+
+.backgroud01-mobile{
+display: block;
+}
+
+
+    
+        
+.titulo{
+position: absolute;
+width: 277px;
+height: 92px;
+left: 16px;
+top: 101px;
+            
+}
+        
+        
+.p1{
+position: absolute;
+width: 337px;
+height: 47px;
+left: 11px;
+top: 311px;
+    
+}
+        
+        
+.btn-cotação{
+display: flex;
+position: absolute;
+width: 203.22px;
+height: 52.45px;
+left: 78px;
+top: 534px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+}
+        
+        
+        
+        
+.section-02{
+    background: none;
+    width: 360px;
+
+}
+
+
+
+
+
+.titulo-section02{
+position: absolute;
+width: 328px;
+height: 63px;
+left: 16px;
+top: 604px;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+text-align: center;
+    
+
+
+}
+
+.numeros{
+  
+    
+}
+
+.plan-person1{
+    
+    position: absolute;
+    width: 241px;
+    height: 42px;
+    left: 70px;
+    top: 683px;
+    
+
+
+   
+}
+
+.plan-person2{
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    width: 266px;
+    height: 42px;
+    left: 70px;
+    top: 767px;
+
+}
+
+.plan-person3{
+    display: flex;
+    align-items: baseline;
+    position: absolute;
+    width: 282px;
+    height: 42px;
+    left: 70px;
+    top: 852px;
+    
+        
+}
+    
+
+.text-section2{
+    position: absolute;
+    width: 328px;
+    height: 92px;
+    left: 16px;
+    top: 929px; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+
+
+}
+
+
+
+.img-pc-mobile{
+display: block;
+position: absolute;
+width: 328px;
+height: 271px;
+left: 16px;
+top: 1061px;
+}
+
+
+.icon-card{
+margin-top: 50px;
+}
+
+
+
+.btn-cotacao-02{
+position: absolute;
+width: 194px;
+height: 52.45px;
+left: 65.45px;
+top: 1396px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;  
+}
+
+
+
+.cards-planos{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+text-align: center;
+    gap: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  
+    
+    text-align: center;
+    
+
+    
+    color: #737D86;
+    
+    
+    }
+    
+    
+    .p-morte{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;     
+        text-align: center; 
+        
+        color: #33794A;
+    }
+    
+.btn-saiba{
+width: 95.31px;
+height: 36.03px;
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), #60C742;
+border-radius: 90.8976px;
+flex: none;
+}
+    
+.img-pc{
+margin-left: 100px;
+}
+    
+.section-03{
+width: 360px;
+background: none;
+}
+    
+    
+.titulo-section-03{
+position: absolute;
+width: 322px;
+height: 34px;
+left: 16px;
+
+}
+    
+    
+.text-section-03{
+position: absolute;
+width: 274px;
+height: 20px;
+left: 43px;
+top: 150px;
+    
+}
+
+    
+    
+.card-1{
+        
+position: absolute;
+width: 328px;
+height: 322px;
+left: 2%;
+top: 250px;
+}
+    
+    
+.card-2{
+    
+position: absolute;
+width: 328px;
+height: 322px;
+left: 2%;
+top: 600px;
+}
+
+
+
+.card-3{
+position: absolute;
+width: 328px;
+height: 322px;
+left: 2%;
+top: 950px;
+}
+
+
+.btn-cotacao-03{
+position: absolute;
+width: 194px;
+height: 52.45px;
+left: 73px;
+top: 1300px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+}
+
+
+
+
+
+.section-04{
+margin: 0;
+
+}
+    
+.titulo-section-04{
+position: absolute;
+width: 328px;
+height: 72px;
+left:0;
+top: 3117px;
+padding: 0;
+}
+
+
+
+.card-duvidas{
+display: flex;
+position: absolute;
+width: 328px;
+height: 72px;
+left: 0;
+top: 203vh;
+}
+    
+
+.duvida01{
+position: absolute;  
+left:5px;
+   
+}
+    
+    
+.txt-duvida01{
+position: absolute;
+width: 360px;
+height: 149px;   
+top: 44px;
+font-style: normal;
+left:0;
+}
+    
+.duvida02{
+position: absolute;
+left:5px;
+width: 277px;
+height: 17px;
+top: 2603px;    
+}
+    
+    
+.duvida03{
+position: absolute;
+left:5px;  
+        
+}
+    
+.duvida04{
+position: absolute;
+left:5px;
+}
+    
+.duvida05{
+position: absolute;
+left:5px;
+}
+    
+    
+    
+    
+.img-section04{
+position: absolute;
+width: 328px;
+height: 172.22px;
+left: 16px;
+top: 2898px;
+border-radius: 131px;
+    
+}
+    
+.btn-cotacao-04{
+position: absolute;
+width: 194px;
+height: 52.45px;
+left: 73px;
+top: 3820px;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+
+
+}
+
+
+
+    
+    hr{
+    width: 300px;
+    }
+    
+    .section-05{
+    position: absolute;
+    width: 100%;
+    height: 612px;
+    left: 0px;
+    top: 2897px;
+        
+    
+    }
+    
+    
+    
+.titulo-section-05{
+position: absolute;
+width: 328px;
+height: 72px;
+left: 16px;
+top: 1050px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+text-align: center;
+}
+    
+.sub-titulo-section-05{
+    
+position: absolute;
+width: 302px;
+height: 43px;
+left: 29px;
+top: 1200px;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+text-align: center;
+}
+    
+    
+.img-section-05-mobile {
+display: block;
+position: absolute;
+width: 360px;
+height: 661px;
+left: 0px;
+}
+    
+    
+.phone{
+position: absolute;        
+height: 30px;
+left: 80px;
+top:1150px
+}
+    
+    
+.btn-wthas{
+position: absolute;
+width: 266.03px;
+height: 40px;
+left: 19px;
+top: 1550px;
+       
+    
+}
+    
+    
+
+
+
+.img-section-05-mobile{
+ display: block;
+ position: absolute;
+width: 360px;
+height: 661px;
+left: 0px;
+top: 1000px;
+}
+
+
+.horario{
+    position: absolute;
+    width: 302px;
+    height: 18px;
+    left: 29px;
+    top: 1250px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;    
+    text-align: center;
+}
+    
+}
+    
+    
+    
+
+
+
